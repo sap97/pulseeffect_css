@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(58, 200, 200);
+}
+.table{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.heder{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.white{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: whit;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+.red{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    animation-name: re;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+.orange{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    animation-name: orang;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards
+}
+.yellow{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation-name: yello;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards 
+}
+.blue{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    animation-name: blu;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards 
+}
+.green{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    animation-name: gree;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards
+}
+.violet{
+    width: 20px;
+    height: 20px;
+    background-color: violet;
+    border-radius: 50%;
+    animation-name: viole;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards
+}
+.dark{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    animation-name: dark;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards
+}
+
+@keyframes whit {
+    from{ width: 20px;
+        height: 20px; 
+    }
+    to{ width: 30px;
+        height: 30px; 
+    }
+}
+@keyframes re {
+    from{ width: 20px;
+        height: 20px; 
+    }
+    to{ width: 30px;
+        height: 30px; 
+    }
+}
+@keyframes orang {
+    from{ width: 20px;
+        height: 20px; 
+    }
+    to{ width: 30px;
+        height: 30px; 
+    }
+}
+@keyframes yello {
+    from{ width: 20px;
+        height: 20px; 
+    }
+    to{ width: 30px;
+        height: 30px; 
+    }
+}
+@keyframes blu {
+    from{ width: 20px;
+        height: 20px; 
+    }
+    to{ width: 30px;
+        height: 30px; 
+    }
+}
+@keyframes gree {
+    from{ width: 20px;
+        height: 20px; 
+    }
+    to{ width: 30px;
+        height: 30px; 
+    }
+}
+@keyframes viole {
+    from{ width: 20px;
+        height: 20px; 
+    }
+    to{ width: 30px;
+        height: 30px; 
+    }
+}
+@keyframes dark {
+    from{ width: 20px;
+        height: 20px; 
+    }
+    to{ width: 30px;
+        height: 30px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @keyframes show{
+    100%{
+        top: 0;
+        opacity: 1;
+    }
+} */
+
+/* @keyframes fromleft{
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes fromtop{
+    100%{
+        height: 100%;
+    }
+/* }  */
+@keyframes fromtop{
+    100%{
+        height: 100%;
+    }
+} 
